@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a basiic app to deploy",
+  "homepage": "https://github.com/SatyajeetChavan30/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/SatyajeetChavan30/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatyajeetChavan30/Backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
