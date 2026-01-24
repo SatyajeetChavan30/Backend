@@ -18,6 +18,10 @@ const E_Com = new mongoose.Schema({
     address:{
         type:String,
         required:'true'
+    },
+    permissions:{
+        type: Boolean,
+        required: 'true',
     }
 
 },{timestamp: 'ture'});
