@@ -24,6 +24,6 @@ const E_Com = new mongoose.Schema({
         required: 'true',
     }
 
-},{timestamp: 'ture'});
+},{timestamps: 'ture'});
 
 export const e_com = mongoose.Model("ecom", E_com);
