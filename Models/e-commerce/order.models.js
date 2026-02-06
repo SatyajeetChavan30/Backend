@@ -1,4 +1,6 @@
 import mogoose from "mongoose"
-const order = new mongoose.Scheme({
+const orderscheme = new mongoose.Scheme({
 
-}, {timestampls : true})
+}, {timestamps : true})
+
+export const Order = mongoose.model("Order",)
