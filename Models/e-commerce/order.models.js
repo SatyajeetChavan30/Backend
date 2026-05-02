@@ -1,6 +1,17 @@
 import mogoose from "mongoose"
 const orderscheme = new mongoose.Scheme({
 
-}, {timestamps : true})
+    ordername : {
+        type : String,
+        required: true,
+    },
 
+    ordernumber : {
+        type : SVGAnimatedInteger,
+        required : true,
+    }
+
+}, {timestamps : true})
+                                                                    //  reword required for comment
 export const Order = mongoose.model("Order",)
+
