@@ -18,3 +18,5 @@ const subTodosSchema = mongoose.Scheme({
 },{timestamps: true});
 
 export const Subtodos = mongoose.model("SubTodos", subTodosSchema);
+/*I am currently working as team lead of ai/backend architecture for an erp for multiple colleges
+*/

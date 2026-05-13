@@ -12,6 +12,6 @@ const orderscheme = new mongoose.Scheme({
     }
 
 }, {timestamps : true})
-                                                                    //  reword required for comment
+
 export const Order = mongoose.model("Order",)
 
